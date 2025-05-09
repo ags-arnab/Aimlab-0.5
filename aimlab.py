@@ -513,7 +513,7 @@ def get_aim_vector():
 
 
 def perform_shot(aim_direction_override=None):
-    global score, misses, shots_fired, successful_hits, targets, bullet_tracers, hit_effects
+    global score, misses, shots_fired, successful_hits, targets, bullet_tracers, hit_effects, practice_targets_hit
 
     shots_fired += 1
     if aim_direction_override:
